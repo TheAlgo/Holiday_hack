@@ -1,0 +1,32 @@
+<html>
+
+<head>
+	<title>Agora Eye Client</title>
+	<!-- <link rel="stylesheet" href="css/bootstrap.min.css"> -->
+	<link rel="stylesheet" href="css/main.css">
+	<script src="js/AgoraRTCSDK-2.3.1.js"></script>
+	<script src="js/jquery.js"></script>
+</head>
+
+<body>
+	<center>
+		<button  class="main" onclick="startStreaming('1001')">Fire Department</button>
+		<button   class="main" onclick="startStreaming('1002')">Police Station</button>
+		<div id="videos">
+		</div>
+	</center>
+	<span style="display: none">
+		
+		<div class="local-video">
+				<div class="video-box" id="video-box-template">
+			
+					</div>
+			</div>
+	</span>
+	
+		
+	<script src="js/common.js"></script>
+	<script src="js/client.js"></script>
+</body>
+
+</html>
